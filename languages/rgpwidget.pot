@@ -1,0 +1,127 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Recent Global Posts Widget\n"
+"POT-Creation-Date: 2023-09-09 21:57+0200\n"
+"PO-Revision-Date: 2023-09-09 21:57+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: widget-recent-global-posts.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: widget-recent-global-posts.php:116 widget-recent-global-posts.php:123
+#: widget-recent-global-posts.php:141 widget-recent-global-posts.php:243
+msgid "Recent Global Posts"
+msgstr ""
+
+#: widget-recent-global-posts.php:201 widget-recent-global-posts.php:205
+msgid "Read More"
+msgstr ""
+
+#: widget-recent-global-posts.php:257
+msgid "Title and content"
+msgstr ""
+
+#: widget-recent-global-posts.php:258
+msgid "Title, blog name and content"
+msgstr ""
+
+#: widget-recent-global-posts.php:259
+msgid "Title only"
+msgstr ""
+
+#: widget-recent-global-posts.php:260
+msgid "Title and blog name"
+msgstr ""
+
+#: widget-recent-global-posts.php:261
+msgid "Content only"
+msgstr ""
+
+#: widget-recent-global-posts.php:262
+msgid "Blog name and content"
+msgstr ""
+
+#: widget-recent-global-posts.php:266
+msgid "Title"
+msgstr ""
+
+#: widget-recent-global-posts.php:271
+msgid "Display"
+msgstr ""
+
+#: widget-recent-global-posts.php:280
+msgid "Number"
+msgstr ""
+
+#: widget-recent-global-posts.php:289
+msgid "Title Characters"
+msgstr ""
+
+#: widget-recent-global-posts.php:298
+msgid "Content Characters"
+msgstr ""
+
+#: widget-recent-global-posts.php:307
+msgid "Avatars"
+msgstr ""
+
+#: widget-recent-global-posts.php:309
+msgid "Show"
+msgstr ""
+
+#: widget-recent-global-posts.php:310
+msgid "Hide"
+msgstr ""
+
+#: widget-recent-global-posts.php:315
+msgid "Avatar Size"
+msgstr ""
+
+#: widget-recent-global-posts.php:326
+msgid "Post Type"
+msgstr ""
+
+#: widget-recent-global-posts.php:333
+msgid "post"
+msgstr ""
+
+#: widget-recent-global-posts.php:339
+msgid "Exclude Blogs"
+msgstr ""
+
+#: widget-recent-global-posts.php:341
+msgid "Blog IDs, separated by commas."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Recent Global Posts Widget"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://n3rds.work/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Show the most recent global posts in a widget"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WMS N@W"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://n3rds.work//"
+msgstr ""
