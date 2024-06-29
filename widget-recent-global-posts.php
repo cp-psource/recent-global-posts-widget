@@ -4,13 +4,13 @@ Plugin Name: Recent Global Posts Widget
 Plugin URI: https://n3rds.work/
 Description: Show the most recent global posts in a widget
 Text Domain: rgpwidget
-Author: WMS N@W
+Author: PSOURCE
 Author URI: https://n3rds.work//
 Version: 1.0.0
 */
 
 // +----------------------------------------------------------------------+
-// | Copyright 2023 WMS N@W (https://n3rds.work/)                                |
+// | Copyright 2017-2024 PSOURCE (https://n3rds.work/)                                |
 // +----------------------------------------------------------------------+
 // | This program is free software; you can redistribute it and/or modify |
 // | it under the terms of the GNU General Public License, version 2, as  |
@@ -26,13 +26,23 @@ Version: 1.0.0
 // | Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,               |
 // | MA 02110-1301 USA                                                    |
 // +----------------------------------------------------------------------+
-require 'psource/psource-plugin-update/psource-plugin-updater.php';
-use Psource\PluginUpdateChecker\v5\PucFactory;
-$MyUpdateChecker = PucFactory::buildUpdateChecker(
-	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=recent-global-posts-widget', 
-	__FILE__, 
-	'recent-global-posts-widget' 
+/**
+ * @@@@@@@@@@@@@@@@@ PS UPDATER 1.3 @@@@@@@@@@@
+ **/
+require 'psource/psource-plugin-update/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+ 
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://github.com/cp-psource/recent-global-posts-widget',
+	__FILE__,
+	'recent-global-posts-widget'
 );
+ 
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('main');
+/**
+ * @@@@@@@@@@@@@@@@@ ENDE PS UPDATER 1.3 @@@@@@@@@@@
+ **/
 // define default constan value
 if ( !defined( 'RECENT_GLOBAL_POSTS_WIDGET_MAIN_BLOG_ONLY' ) ) {
 	define( 'RECENT_GLOBAL_POSTS_WIDGET_MAIN_BLOG_ONLY', true );
